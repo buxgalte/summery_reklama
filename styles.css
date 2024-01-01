@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    
+  
+}
+.nav{
+    width: 368px;
+    height: 512px;
+    border-radius: 32px;
+    background: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left-side {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0.00) 100%, rgba(37, 33, 201, 0.00) 100%);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about {
+    color: var(--Light-Blue, #CAC9FF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Heading M */
+   
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 38px;
+    padding-bottom: 30px;
+}
+
+.result {
+   
+
+color: var(--White, #FFF);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+/* Heading XL */
+font-family: Hanken Grotesk;
+font-size: 72px;
+font-style: normal;
+font-weight: 800;
+line-height: 72px;
+}
+
+.text {
+    
+
+color: var(--Light-Blue, #CAC9FF);
+font-feature-settings: 'clig' off, 'liga' off;
+/* Body (Bold) */
+font-family: Hanken Grotesk;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.level {
+    color: var(--White, #FFF);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+/* Heading L */
+font-family: Hanken Grotesk;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+
+}
+
+.p-text {
+   
+
+    max-width: 240px;
+    width: 100%;
+    text-align: center;
+    color: #CAC9FF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Hanken Grotesk;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 14px;
+    padding-bottom: 50px;
+}
+
+.right-side {
+    width: 368px;
+    height: 512px;
+    border-radius: 32px;
+    background: #FFF;
+    box-shadow: 0px 30px 60px 0px rgba(61, 108, 236, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  
+}
+
+.summary {
+    color: var(--Dark-Navy, #303B59);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Heading M */
+    font-family: Hanken Grotesk;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    padding-left: 40px; 
+    padding-top: 38px;  
+}
+
+
+
+.card {
+    width: 288px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    background: var(--red-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #F55);
+}
+
+.all-image {
+   
+    padding-left: 16px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.level-name {
+    margin-right: 80px;
+}
+
+.level-numb {
+    color: var(--Dark-Navy, #303B59);
+    text-align: right;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body (Bold) */
+    font-family: Hanken Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.span {
+    color: var(--Dark-Navy, #303B59);
+    text-align: right;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body (Bold) */
+    font-family: Hanken Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btn {
+    width: 288px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 128px;
+    background: var(--Dark-Navy, #303B59);
+    margin-bottom: 40px;
+    margin-left: 40px;
+    color: var(--White, #FFF);
+text-align: right;
+font-feature-settings: 'clig' off, 'liga' off;
+/* Body (Bold) */
+font-family: Hanken Grotesk;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 16px 106px;
+}
+.title_1{
+    color: var(--Red, #F55);
+
+}
+.title_2{
+    color: var(--Yellow, #FFB21E);
+
+}
+.title_3{
+    color: var(--Green, #00BB8F);
+
+}
+.title_4{
+    color: var(--Blue, #1125D6);
+
+}
+.box_1{
+    background: var(--red-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #F55);
+}
+.box_2{
+background: var(--yellow-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #FFB21E);
+}
+.box_3{
+    background: var(--green-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #00BB8F); 
+}
+.box_4{
+    background: var(--blue-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #1125D6);
+    
+}
